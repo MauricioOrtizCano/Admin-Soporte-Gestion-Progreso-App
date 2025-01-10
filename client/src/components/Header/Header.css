@@ -1,0 +1,16 @@
+.header {
+  grid-area: header;
+  background-color: rgba(108, 92, 231, 0.5);
+  /* background-color: #dfdeff; */
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
+    0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  color: white;
+  padding: 1rem;
+  width: 100%;
+  border-color: #ffffff;
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.4);
+  z-index: 1000; /* Asegura que esté por encima de otros elementos */
+  position: relative; /* Necesario para que z-index funcione */
+  backdrop-filter: blur(8px); /* Efecto de desenfoque detrás */
+  margin-bottom: 2px;
+}

@@ -1,0 +1,11 @@
+.container {
+  display: grid;
+  grid-template-areas:
+    "header header"
+    "sidebar main";
+  grid-template-columns: 20vw 80vw;
+  grid-template-rows: 100px 1fr;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+}
