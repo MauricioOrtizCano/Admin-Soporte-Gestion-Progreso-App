@@ -1,0 +1,1 @@
+Es importante mencionar que para que el proyecto tenga un buen funcionamiento deben estar levantados los servidores de Apache y MySQL (Con ayuda de XAMPP), y para contar con una base de datos ejemplo, primero es necesario hacer una migración de los modelo y luego ejecutar el comando >php artisan db:seed dentro de la carpeta /api. 
